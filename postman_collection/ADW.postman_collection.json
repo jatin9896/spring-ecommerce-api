@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "9a77473e-f4af-486e-bec3-b5d43144baac",
+		"name": "ADW",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18616256",
+		"_collection_link": "https://niceteam1234465.postman.co/workspace/Team-Workspace~bcdaa2d8-6393-4fe9-8bc0-b64d67504920/collection/18616256-9a77473e-f4af-486e-bec3-b5d43144baac?action=share&source=collection_link&creator=18616256"
+	},
+	"item": [
+		{
+			"name": "Register Customer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"firstName\": \"Mayank\",\r\n  \"lastName\": \"Customer\",\r\n  \"mobileNumber\": \"1234567890\",\r\n  \"email\": \"mayank@customer.com\",\r\n  \"password\": \"password123\",\r\n  \"role\": \"CUSTOMER\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8090/api/v1/auth/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"v1",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register Admin",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"firstName\": \"Mayank\",\r\n  \"lastName\": \"Customer\",\r\n  \"mobileNumber\": \"1234567890\",\r\n  \"email\": \"mayank@customer.com\",\r\n  \"password\": \"password123\",\r\n  \"role\": \"CUSTOMER\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8090/api/v1/auth/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"v1",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register Vendor Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"firstName\": \"Mayank\",\r\n  \"lastName\": \"Customer\",\r\n  \"mobileNumber\": \"1234567890\",\r\n  \"email\": \"mayank@customer.com\",\r\n  \"password\": \"password123\",\r\n  \"role\": \"CUSTOMER\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8090/api/v1/auth/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"v1",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
